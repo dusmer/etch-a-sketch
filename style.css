@@ -2,8 +2,12 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    gap:20px;
 }
-
+.container{
+    display:flex;
+    justify-content: center;
+}
 .grid{
     display:flex;
     flex-direction: column;
