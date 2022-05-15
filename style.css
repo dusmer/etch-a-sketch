@@ -1,5 +1,25 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid{
+    display:flex;
+    flex-direction: column;
+}
+
 .square{
     width:16px;
     height:16px;
     border: solid 1px black;
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+}
+
+.coloredIn{
+    background-color:black;
 }
